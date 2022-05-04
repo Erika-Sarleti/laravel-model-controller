@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="{{asset('css/app.css')}}">
 </head>
 <body>
     <div class="container-movies">
@@ -17,13 +18,13 @@
                     {{$movie->original_title}}
                 </h4>
                 <div class="nation">
-                    {{$movie->nationality}}
+                    Nationality: {{$movie->nationality}}
                 </div>
                 <div class="date">
-                    {{$movie->date}}
+                    Date: {{$movie->date}}
                 </div>
                 <div class="rate">
-                    {{$movie->vote}}
+                    Vote: {{$movie->vote}}
                 </div>
                 
             </div>
