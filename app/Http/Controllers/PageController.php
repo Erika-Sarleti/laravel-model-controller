@@ -12,6 +12,7 @@ class PageController extends Controller
        $data =[
            'movies' => $movies
        ];
+       
        return view('movie', $data);
    }
 }
